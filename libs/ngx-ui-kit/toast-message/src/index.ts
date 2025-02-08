@@ -1,1 +1,1 @@
-export const greeting = 'Hello World!';
+export { ToastMessageService } from './toast-message.service';
