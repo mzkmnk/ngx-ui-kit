@@ -2,7 +2,10 @@
   "name": "@ngx-ui-kit-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:ngx-ui-kit-monorepo": "nx serve ngx-ui-kit-monorepo",
+    "lib:secondary": "nx g @nx/angular:library-secondary-entry-point --library=ngx-ui-kit --skipModule"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~19.1.0",

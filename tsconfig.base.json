@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mzkmnk/ngx-ui-kit": ["libs/ngx-ui-kit/src/index.ts"]
+      "@mzkmnk/ngx-ui-kit": ["libs/ngx-ui-kit/src/index.ts"],
+      "@mzkmnk/ngx-ui-kit/toast-message": [
+        "libs/ngx-ui-kit/toast-message/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
